@@ -66,6 +66,18 @@ footer {
     text-align: right;
 }
 
+
+#aboutMe {
+    display: none;
+    background-color: bisque;
+    width: 100%;
+    font-weight: bold;
+    font-size: 20px;
+    opacity: 1;
+    color: rgb(34, 33, 33);
+}
+
+
 #contactForm {
     display: none;
     /* background-image: url(images/wall_joanna-kosinska-mjC9apK53a8-unsplash.jpg); */
