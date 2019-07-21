@@ -12,6 +12,7 @@ body {
     opacity: 0.6;
     height: 100px;
     margin: 4px;
+    font-family: Bookman, URW Bookman L, serif; 
     font-size: 24px;
     padding: 30px;
 }
@@ -29,6 +30,7 @@ body {
 .col-4 {
     background-color: gray;
     margin: auto;
+    padding: 10px;
 }
 
 #panel:hover {
@@ -65,8 +67,10 @@ footer {
 
 #contactForm {
     display: none;
+    /* background-image: url(images/wall_joanna-kosinska-mjC9apK53a8-unsplash.jpg); */
+    width: 100%;
+    font-weight: bold;
+    opacity: 1;
+    color: rgb(34, 33, 33);
 }
 
-.form-group {
-  
-}

@@ -20,6 +20,10 @@
 <!-- jQuery -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
+<!-- sweetalert -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+
+
 </head>
 
 <!-- background image -->
@@ -27,13 +31,15 @@
     
     <!-- nav bar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light"> 
-        <div class="collapse navbar-collapse" id="navbarText">
-          <ul class="navbar-nav ml-auto">
+        <div class="collapse navbar-collapse justify-content-between" id="navbarText">
+          <ul class="navbar-nav">
 
                 <span class="navbar-text">
                         CAROLINE CRANCH | Web Developer
                 </span>
-
+            </ul>
+                <ul class="nav navbar-nav ml-auto">
+                     
                 <li class="nav-item">
                         <a class="btn btn-default" href="home.html">
                         <i class="fas fa-home fa-2x"></i>
@@ -52,7 +58,12 @@
                     </a>
                 </li>
 
-          </ul>
+                <li class="nav-item">
+                    <a class="btn btn-default" href="https://twitter.com/cecranch">
+                        <i class="far fa-file-alt fa-2x"></i>
+                    </a>
+                </li>
+            </ul>
         </div>
       </nav>
       <br>
@@ -79,28 +90,29 @@
               <!-- Contact Form - toggles on click -->
                   <div class = "form-group" id = "contactForm">
                         <form class="block form-horizontal">
-                             
-                                <br>
+                                
                                 <br>
                                 <div class="form-group">
-                                  <label for="name" class="control-label">Name</label>
+                                  <!-- <label for="name" class="control-label">Name</label> -->
                                   <div class="form-row">
-                                    <input type="email" class="form-control" id="name" placeholder="Name">
+                                    <input type="text" class="form-control" id="name" placeholder="Name">
                                   </div>
                                 </div>
                                 <div class="form-group">
-                                  <label for="email" class="control-label">Email</label>
+                                  <!-- <label for="email" class="control-label">Email</label> -->
                                   <div class="form-row">
-                                    <input type="password" class="form-control" id="email" placeholder="Email">
+                                    <input type="email" class="form-control" id="email" placeholder="Email">
                                   </div>
                                 </div>
                                 <div class="form-group">
-                                  <label class="control-label" for="msg">Message</label>
+                                  <!-- <label class="control-label" for="msg">Message</label> -->
                                   <div class="form-row">
                                     <textarea id="msg" class="form-control" rows="3" placeholder="Message"></textarea>
                                   </div>
                                 </div>
-                                <button class="submit-btn">Submit</button>
+                                <div class = "form-row">
+                                <button class="btn btn-success float-right" type="button" id="submit">Submit</button>
+                                </div>
                               </form>
           </div> 
         </div>
