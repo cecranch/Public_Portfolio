@@ -14,3 +14,18 @@ $("#submit").click(function(){
     timer: 5000
   })
 });
+
+
+// @media screen and (max-width: 600px) {
+//     .navbar.responsive {position: relative;}
+//     .navbar.responsive a.icon {
+//       position: absolute;
+//       right: 0;
+//       top: 0;
+//     }
+//     .navbar.responsive a {
+//       float: none;
+//       display: block;
+//       text-align: left;
+//     }
+//   }
