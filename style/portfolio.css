@@ -1,0 +1,25 @@
+
+body {
+    margin: 10px;
+    opacity: 0.8;
+    padding: 10px;
+    background-size: 90%;
+}
+
+.btn {
+    color: rgb(116, 78, 116);
+    opacity: 1;
+}
+
+.navbar-text {
+    color: black;
+    opacity: 1;
+    font-size: 25px;
+    text-align: left;
+}
+
+.card:hover {
+    opacity: .5;
+    color: rgb(41, 40, 40);
+    cursor: pointer;
+}
