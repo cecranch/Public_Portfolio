@@ -28,6 +28,16 @@ body {
     padding: 30px;
 }
 
+#portfolioPanel {
+    background-color: white;
+    opacity: 0.6;
+    height: 100px;
+    margin: 4px;
+    font-size: 24px;
+    padding: 30px;
+}
+
+
 .col-4 {
     background-color: gray;
     margin: auto;
@@ -48,6 +58,12 @@ body {
     cursor: pointer;
 }
 
+
+#portfolioPanel:hover {
+    background-color: white;
+    opacity: 1;
+    cursor: pointer;
+}
 .btn {
     color: rgb(116, 78, 116);
     opacity: 1;
@@ -70,11 +86,12 @@ footer {
 #aboutMe {
     display: none;
     /* height: 100px; */
-    margin: 4px;
-    background-color: bisque;
-    width: 100%;
+    /* margin: 4px; */
+    background-image: url(/style/images/wall_joanna-kosinska-mjC9apK53a8-unsplash.jpg);
+    width: 90%;
     font-size: 16px;
-    padding: 30px;
+    padding: 20px;
+    float: right;
     color: rgb(34, 33, 33);
 }
 

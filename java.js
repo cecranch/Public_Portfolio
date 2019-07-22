@@ -5,6 +5,8 @@ $("#contact").click(function(){
 
   $("#about").click(function(){
     $("#aboutMe").toggle();
+    $("#contactPanel").toggle();
+    $("#portfolioPanel").toggle();
     console.log("about me opened");
   });
 
