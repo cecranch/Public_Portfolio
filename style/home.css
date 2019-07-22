@@ -1,19 +1,29 @@
 
 body {
     margin: 5px;
-    opacity: 0.7;
-    padding: 5px;
-    color: black;
+    /* opacity: 0.6; */
+    /* padding: 5px;
+    /* color: black; */
     background-size: 90%;
+} 
+
+#background {
+    opacity: 0.5;
+    background-size: 90%;
+    margin: 5px;
 }
 
+h1 {
+    color: black;
+    font-size: 20pt;
+}
 
 #panel {
     background-color: white;
-    opacity: 0.6;
-    height: 100px;
+    opacity: 0.7;
+    height: 90px;
     margin: 4px;
-    font-size: 26px;
+    font-size: 18pt;
     color: black;
     padding: 30px;
 }
@@ -21,27 +31,27 @@ body {
 
 #contactPanel {
     background-color: white;
-    opacity: 0.6;
-    height: 100px;
+    opacity: 0.7;
+    height: 90px;
     margin: 4px;
-    font-size: 24px;
+    font-size: 18pt;
     padding: 30px;
 }
 
 #portfolioPanel {
     background-color: white;
-    opacity: 0.6;
-    height: 100px;
+    opacity: 0.7;
+    height: 90px;
     margin: 4px;
-    font-size: 24px;
+    font-size: 18pt;
     padding: 30px;
 }
-
 
 .col-4 {
     background-color: gray;
     margin: auto;
     padding: 10px;
+    /* opacity: 1; */
 }
 
 #panel:hover {
@@ -72,7 +82,7 @@ body {
 .navbar-text {
     color: black;
     opacity: 1;
-    font-size: 25px;
+    font-size: 20pt;
     text-align: left;
 }
 
@@ -88,11 +98,11 @@ footer {
     /* height: 100px; */
     /* margin: 4px; */
     background-image: url(/style/images/wall_joanna-kosinska-mjC9apK53a8-unsplash.jpg);
-    width: 90%;
-    font-size: 16px;
+    width: 95%;
+    font-size: 14pt;
     padding: 20px;
     float: right;
-    color: rgb(34, 33, 33);
+    color: black;
 }
 
 
