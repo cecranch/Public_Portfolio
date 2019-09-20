@@ -1,9 +1,9 @@
-$("#contact").click(function(){
+$("#contactPanel").click(function(){
     $("#contactForm").toggle();
     console.log("contact form opened");
   });
 
-  $("#about").click(function(){
+  $("#aboutPanel").click(function(){
     $("#aboutMe").toggle();
     $("#contactPanel").toggle();
     $("#portfolioPanel").toggle();
@@ -14,7 +14,7 @@ $("#contact").click(function(){
 $("#submit").click(function(){
 
   Swal.fire({
-    type: 'success',
+    type: 'Success',
     title: 'Thanks!',
     text: 'Look forward to chatting with you soon!',
     timer: 5000

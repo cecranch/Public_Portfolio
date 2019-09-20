@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,150 +8,146 @@
     <title>Public Portfolio</title>
 
     <!-- CSS file-->
-<link rel="stylesheet" type="text/css" href="style/home.css">
+    <link rel="stylesheet" type="text/css" href="style/home.css">
 
-<!-- Bootstrap -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
-<!-- Font Awesome -->
-<script src="https://kit.fontawesome.com/06d201a04b.js"></script>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/06d201a04b.js"></script>
 
-<!-- jQuery -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-<!-- sweetalert -->
-<script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+    <!-- sweetalert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
 
-<!-- google fonts -->
-<link href="https://fonts.googleapis.com/css?family=Pacifico|Permanent+Marker&display=swap" rel="stylesheet">
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Libre+Franklin|Pacifico|Quicksand|Permanent+Marker&display=swap" rel="stylesheet">
 
 </head>
 
 <!-- background image -->
-<body id= "background" background="style/images/nicole-honeywill-HL3EOgFiy0k-unsplash.jpg">
-    
+
+<body>
     <!-- nav bar -->
-    <nav class="navbar navbar-expand-lg bg-light"> 
-        <div class="collapse navbar-collapse justify-content-between" id="navbarText">
-          <ul class="navbar-nav">
-
-                <span class="navbar-text">
-                        Caroline Cranch | Web Developer
-                </span>
-            </ul>
-                <ul class="nav navbar-nav ml-auto">
-                     
-                <li class="nav-item">
-                        <a class="btn btn-default" href="home.html">
-                        <i class="fas fa-home fa-2x"></i>
-                        </a>
+    <nav class="navbar navbar-expand-lg bg-light">
+            <a class="navbar-brand" href="#" id="navbarText">
+                Caroline Cranch | Web Developer        
+            </a>
+            <ul class="nav navbar-nav ml-auto">
+                <!-- Home Icon -->
+                <li class="nav-item active">
+                    <a class="btn btn-default" href="home.html">
+                    <i class="fas fa-home fa-2x"></i>
+                    </a>
                 </li>
-
+                <!-- LinkedIn Icon -->
                 <li class="nav-item">
                     <a class="btn btn-default" href="https://linkedin.com/in/caroline-cranch">
                     <i class="fab fa-linkedin fa-2x"></i>
                     </a>
-                </li>       
-         
+                </li>
+                <!-- Twitter Icon -->
                 <li class="nav-item">
                     <a class="btn btn-default" href="https://twitter.com/cecranch">
                     <i class="fab fa-twitter fa-2x"></i>
                     </a>
                 </li>
-
+                <!-- Resume Icon -->
                 <li class="nav-item">
                     <a class="btn btn-default" href="style/images/CarolineCranch2019Resume.pdf">
-                        <i class="far fa-file-alt fa-2x"></i>
+                    <i class="far fa-file-alt fa-2x"></i>
                     </a>
                 </li>
-
+                <!-- Email Icon -->
                 <li class="nav-item">
-                        <a class="btn btn-default" href="mailto:cranch.caroline@gmail.com">
-                            <i class="far fa-envelope fa-2x"></i>
-                        </a>
+                    <a class="btn btn-default" href="mailto:cranch.caroline@gmail.com">
+                    <i class="far fa-envelope fa-2x"></i>
+                    </a>
                 </li>
+        </ul>
+    </nav>
+    <br>
 
-            </ul>
-        </div>
-      </nav>
-      <br>
-
-    <div class = "row">
-      <div class = "col-4">
+    <div class="row">
+        <div class="col-4">
             <img src="style/images/desk_tran-mau-tri-tam--AjGkkoXTIs-unsplash.jpg" alt="Image1" class="img-thumbnail img-responsive">
             <img src="style/images/piano_ashwin-vaswani-9nsclYhATr8-unsplash.jpg" alt="Image2" class="img-thumbnail img-responsive">
-            <!-- <img src ="style/images/swatch_jealous-weekends-cLkKF4dc-ls-unsplash.jpg" alt="Image3" class="img-thumbnail"> -->
-      </div>
-    <!-- About Me Row -->
-      <div class = "col-7">
-          <div class = "row" id = "aboutPanel">
-            <h1 id = "about">About</a></h1>
-          </div>
-        
-    <!-- About Me Expandable  -->
-    <!-- <div class = "col-7"> -->
-        <div class = "row" id = "aboutMe">
-          <p>Hi! My name is Caroline Cranch. I am a mid-twenty something Philadelphia native, and a proud (and exhausted) student at University of Pennsylvania's LPS Coding Bootcamp.</p>
-
-          <p>Currently, I work full-time in Center City Philadelphia as a Knowledge Management analyst. Learning to code has been a long-time goal, and the past year has been dedicated to taking that leap.</p>
-    
-          <p>Free time? You can find me taking a quick 'code break' at Soul Cycle, catching the next folk/bluegrass concert (yes, Philadelphia has a thriving scene), or trying a new restaurant in the city. Check back in a few months, as I hope to enhance my page as my skills improve!</p>
-    
         </div>
-        <br>
-    <!-- </div> -->
-    <!-- Portfolio Row -->
-          <div class = "row" id = "portfolioPanel">
+        <!-- About Me Row -->
+        <div class="col-7">
+        <div class="row" id="aboutPanel">
+                <h1 id="aboutBtn">About</h1>
+        </div>
+
+        <!-- About Me - Expandable  -->
+        <!-- <div class = "col-7"> -->
+        <div class="row" id="aboutMe">
+                <p>Hi! My name is Caroline Cranch. I am a mid-twenty something Philadelphia native, 
+                   and a proud (and exhausted) student at University of Pennsylvania's LPS Coding Bootcamp.</p>
+
+                <p>Currently, I work full-time in Center City Philadelphia as a Knowledge Management analyst. 
+                   Learning to code has been a long-time goal, and the past year has been dedicated to taking that leap.</p>
+
+                <p>Free time? You can find me taking a quick 'code break' at Soul Cycle, catching the next folk/bluegrass concert 
+                    (yes, Philadelphia has a thriving scene), or trying a new restaurant in the city. 
+                    Check back in a few months, as I hope to enhance my page as my skills improve!</p>
+        </div>
+            <br>
+        <!-- </div> -->
+            <!-- Portfolio Row -->
+            <div class="row" id="portfolioPanel">
                 <h1><a href="portfolio.html">Portfolio</a></h1>
-          </div>
-          <br>
-    <!-- Contact Row -->
-          <div class = "row" id = "contactPanel">
-              <h1 id = "contact">Contact</h1>
-              <br>
-    <!-- Contact Form - toggles on click -->
-                  <div class = "form-group" id = "contactForm">
-                        <form class="block form-horizontal">
-                                
-                                <br>
-                                <div class="form-group">
-                                  <div class="form-row">
-                                    <input type="text" class="form-control" id="name" placeholder="Name">
-                                  </div>
-                                </div>
-                                <div class="form-group">
-                                  <!-- <label for="email" class="control-label">Email</label> -->
-                                  <div class="form-row">
-                                    <input type="email" class="form-control" id="email" placeholder="Email">
-                                  </div>
-                                </div>
-                                <div class="form-group">
-                                  <!-- <label class="control-label" for="msg">Message</label> -->
-                                  <div class="form-row">
-                                    <textarea id="msg" class="form-control" rows="3" placeholder="Message"></textarea>
-                                  </div>
-                                </div>
-                                <div class = "form-row">
-                                <button class="btn btn-success float-right" type="button" id="submit">Submit</button>
-                                </div>
-                              </form>
-          </div> 
-        </div>
-        </div>
-      </div>
+            </div>
+            <br>
+            <!-- Contact Row -->
+            <div class="row" id="contactPanel">
+                <h1 id="contactBtn">Contact</h1>
+                <br>
+            </div>
+            <!-- Contact Form - toggles on click -->
+            <div class="form-group" id="contactForm">
+            <form class="block form-horizontal">
+                <br>
+                <div class="form-group">
+                  <div class="form-row">
+                    <input type="text" class="form-control" id="name" placeholder="Name">
+                  </div>
+                </div>
 
+                <div class="form-group">
+                <label for="email" class="control-label">Email</label>
+                    <div class="form-row">
+                    <input type="email" class="form-control" id="email" placeholder="Email">
+                    </div>
+                </div>
 
+                <div class="form-group">
+                <label class="control-label" for="msg">Message</label>
+                    <div class="form-row">
+                    <textarea id="msg" class="form-control" rows="3" placeholder="Message"></textarea>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                <button class="btn btn-success float-right" type="button" id="submit">Submit</button>
+                </div>
+            </form>
+            </div>
+        </div>
     </div>
 
+
     <footer>
-    <p> &copy; Copyright 2019 </p>
+        <p> &copy; Copyright 2019 </p>
     </footer>
 
-</div>
-
 <!-- local javascript file -->
-<script src="java.js"></script>
+<script type="text/javascript" src="java.js"></script>
+
 </body>
+
 </html>

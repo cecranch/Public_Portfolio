@@ -1,21 +1,10 @@
-
 body {
     margin: 5px;
-    /* opacity: 0.6; */
-    /* padding: 5px;
-    /* color: black; */
+    background-image: url("images/nicole-honeywill-HL3EOgFiy0k-unsplash.jpg");
+    background-image: rgba(0, 151, 19, 0.3);
+    opacity: 0.9;
+    padding: 5px;
     background-size: 90%;
-} 
-
-#background {
-    opacity: 0.5;
-    background-size: 90%;
-    margin: 5px;
-}
-
-h1 {
-    color: black;
-    font-size: 20pt;
 }
 
 #aboutPanel {
@@ -25,7 +14,6 @@ h1 {
     margin: 4px;
     font-size: 18pt;
     font-family: 'Permanent Marker', cursive;
-    color: black;
     padding: 30px;
 }
 
@@ -36,10 +24,9 @@ h1 {
     margin: 4px;
     font-size: 18pt;
     font-family: 'Permanent Marker', cursive;
-    color: black;
     padding: 30px;
 }
-    
+
 #contactPanel {
     background-color: white;
     opacity: 0.7;
@@ -47,26 +34,21 @@ h1 {
     margin: 4px;
     font-size: 18pt;
     font-family: 'Permanent Marker', cursive;
-    color: black;
     padding: 30px;
 }
 
-
-
 .col-4 {
-    background-color: gray;
+    background-color: rgb(163, 162, 162);
     margin: auto;
     padding: 10px;
-    /* opacity: 1; */
+    opacity: 0.9;
 }
 
-#panel:hover {
+#aboutPanel:hover {
     background-color: white;
     opacity: 1;
-    color: black;
     cursor: pointer;
 }
-
 
 #contactPanel:hover {
     background-color: white;
@@ -74,52 +56,52 @@ h1 {
     cursor: pointer;
 }
 
-
 #portfolioPanel:hover {
     background-color: white;
     opacity: 1;
     cursor: pointer;
 }
+
 .btn {
     color: rgb(116, 78, 116);
     opacity: 1;
 }
 
-.navbar-text {
-    color: black;
+#navbarText {
+    color: rgb(116, 78, 116);
     opacity: 1;
     font-size: 20pt;
-    /* font-family: 'Pacifico', cursive; */
     font-family: 'Permanent Marker', cursive;
-    text-align: left;
+}
+
+p {
+    color: black;
+    font-family: 'Quicksand', sans-serif;
 }
 
 footer {
     color: black;
     size: 13px;
+    opacity: 1;
     text-align: right;
 }
 
-
 #aboutMe {
     display: none;
-    /* height: 100px; */
-    /* margin: 4px; */
-    background-image: url(/style/images/wall_joanna-kosinska-mjC9apK53a8-unsplash.jpg);
+    background: rgb(255, 255, 255);
+    margin: 4px;
     width: 95%;
     font-size: 14pt;
     padding: 20px;
     float: right;
-    color: black;
+    opacity: 0.8;
 }
 
-
-#contactForm {
+.form-group {
     display: none;
-    /* background-image: url(images/wall_joanna-kosinska-mjC9apK53a8-unsplash.jpg); */
     width: 100%;
+    font-family: 'Libre Franklin', sans-serif;
     font-weight: bold;
     opacity: 1;
     color: rgb(34, 33, 33);
 }
-
